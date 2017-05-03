@@ -1,0 +1,46 @@
+*{
+	font-family: georgia;
+}
+
+h1{
+	font-family: 'Poiret One', cursive;
+	margin-left: 10px;
+	font-size: 64px
+}
+h3{
+	font-family: 'Poiret One', cursive;
+	color: grey;
+	font-size: 24px;
+	margin-left: 20px;
+	margin-top: 0;
+}
+br{
+	color: grey;
+}
+h4{
+	font-family: 'Poiret One', cursive;
+	color: grey;
+	font-size: 16px;
+}
+
+img{
+	margin-top: 30px;
+	margin-left: 40px;
+	max-height: 150px;
+	max-width: 300px;
+}
+p{
+	font-size: 18px;
+}
+.row{
+	margin-bottom: 20px;
+}
+h4{
+	text-align: center;
+}
+
+.bookcontainer{
+	border-style: solid;
+	border-color: grey;
+	margin: 10px;
+}
