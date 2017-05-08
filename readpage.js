@@ -39,11 +39,8 @@ $.get('Assets/book1.htm', function(data){
 
 		$("ul").append(list);
 
-		var link = $("#content").
-		
-
+	
 	}
-
 
 
 	

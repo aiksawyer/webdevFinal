@@ -23,7 +23,7 @@ $.get('Assets/book2.htm', function(data){
 
 	$('#content pre, #content style').remove();
 	$('#content hr, #content style').remove();
-	$('#content blockquote, #content style').remove();
+	///$('#content blockquote, #content style').remove();
 	$('#content br, #content style').remove();
 
 
@@ -31,6 +31,8 @@ $.get('Assets/book2.htm', function(data){
 
 
 	$("ul").append(toc);
+
+
 
 	console.log("git here")
 

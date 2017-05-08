@@ -39,11 +39,7 @@ $.get('Assets/book3.htm', function(data){
 
 		$("ul").append(list);
 
-		$(document).ready(function(){
-			$(".remove-attr").click(function(){
-				$("a").removeAttr("href");
-			})
-		})
+		
 		
 
 	}
