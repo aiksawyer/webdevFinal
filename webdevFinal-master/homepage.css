@@ -1,0 +1,56 @@
+*{
+	font-family: georgia;
+}
+
+h1{
+	font-family: 'Poiret One', cursive;
+	margin-left: 10px;
+	font-size: 64px;
+	text-align: CENTER;
+	margin-bottom: -20px;
+}
+h3{
+	font-family: 'Poiret One', cursive;
+	color: grey;
+	font-size: 24px;
+	text-align: CENTER;
+	margin-top: 30px;
+}
+br{
+	color: grey;
+}
+h4{
+	font-family: 'Poiret One', cursive;
+	color: grey;
+	font-size: 16px;
+}
+
+h5{
+	font-family: 'Poiret One', cursive;
+	color: grey;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+img{
+	margin-top: 30px;
+	margin-left: 40px;
+	max-height: 300px;
+	max-width: 400px;
+}
+p{
+	font-size: 18px;
+}
+.row{
+	margin-bottom: 10px;
+}
+h4{
+	text-align: center;
+}
+
+.bookcontainer img{
+	margin: 10px;
+	margin-left: 50px;
+	height: 300px;
+	width: 200px;
+}

@@ -1,0 +1,140 @@
+*{
+	font-family: georgia;
+}
+
+h1{
+	font-family: 'Poiret One', cursive;
+	margin-left: 10px;
+	font-size: 64px
+}
+
+h2{
+	font-family: 'Poiret One', cursive;
+	font-size: 24px;
+}
+
+.toc{
+	font-family: 'Poiret One', cursive;
+	font-size: 24px;
+}
+
+h3{
+	font-family: 'Poiret One', cursive;
+	color: grey;
+	font-size: 24px;
+	margin-left: 20px;
+	margin-top: 0;
+}
+
+br{
+	color: grey;
+}
+
+h4{
+	font-family: 'Poiret One', cursive;
+	color: grey;
+	font-size: 16px;
+}
+
+#like{
+	max-width: 50px;
+}
+
+img{
+	margin-top: 30px;
+	margin-left: 40px;
+
+}
+
+p{
+	font-size: 18px;
+}
+.row{
+	margin-bottom: 20px;
+}
+h4{
+	text-align: center;
+}
+
+.bookcontainer{
+	border-style: solid;
+	border-color: grey;
+	margin: 10px;
+}
+
+
+#nav
+{
+	position: fixed;
+	left: -10em;
+	top: 0;
+	bottom: 0;
+	background-color: #dfdfdf;
+	border-right: 35px solid #dfdfdf;
+	box-shadow: 4px 0 5px rgba(0,0,0,0.2);
+	z-index: 1;
+	cursor: pointer;
+}
+
+#nav h6{
+	font-family: 'Poiret One', cursive;
+	color: #303030;
+}
+#nav:after
+{
+	position: fixed;
+	content: ' ';
+	width: 0;
+	height: 0;
+	right: -70px;
+	top: 50%;
+	border-width: 15px 10px;
+	border-style: solid;
+	
+}
+
+#nav ul
+{	
+	font-family: 'Poiret One', cursive;
+	width: 6em;
+	list-style-type: none;
+	margin-top: 7em;
+	padding-left: 5em;
+}
+
+#nav a:link, #nav a:visited
+{
+	font-family: 'Poiret One', cursive;
+	width: 100%;
+	line-height: 2.5em;
+	text-indent: 10px;
+	text-decoration: none;
+	color: #303030;
+	
+}
+
+
+/* hovering */
+#nav, #nav *
+{
+	overflow-y: scroll;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+
+#nav:hover{
+	left: -40px;
+}
+
+
+
+#cover{
+	float: left;
+}
+
+h3{
+	padding-left: 3.7em;
+}
