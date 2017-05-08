@@ -1,7 +1,7 @@
 
 
 
-$.get('Assets/book1.htm', function(data){
+$.get('Assets/book3.htm', function(data){
 	//console.log(data);
 	//var html = $(data);
 	
@@ -22,7 +22,7 @@ $.get('Assets/book1.htm', function(data){
 
 	$('#content pre, #content style').remove();
 	$('#content br, #content style').remove();
-	$('#content h2, #content style').remove();
+	///$('#content h2, #content style').remove();
 
 
 
@@ -39,12 +39,14 @@ $.get('Assets/book1.htm', function(data){
 
 		$("ul").append(list);
 
-		var link = $("#content").
+		$(document).ready(function(){
+			$(".remove-attr").click(function(){
+				$("a").removeAttr("href");
+			})
+		})
 		
 
 	}
-
-
 
 	
 
