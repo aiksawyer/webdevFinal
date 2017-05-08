@@ -22,7 +22,12 @@ $.get('Assets/book1.htm', function(data){
 
 	$('#content pre, #content style').remove();
 	$('#content br, #content style').remove();
-	$('#content h2, #content style').remove();
+	$('#content h1, #content style').css("text-align","left");
+
+	$('#content h2, #content style').css("text-align", "left");
+	$('#content h3, #content style').css("padding","0");
+	$('#content h3, #content style').css("text-align", "left");
+
 
 
 
@@ -49,8 +54,19 @@ $.get('Assets/book1.htm', function(data){
 	
 
 	
+function changeImage() {
+
+if (document.getElementById("like").src == "Assets/heartempty.png") 
+	console.log('changingimage');
+    {
+    document.getElementById("like").src = "Assets/heartfull.png";
+        }
+
+    }
 
 });
+
+
 
 
 

@@ -1,3 +1,12 @@
+function changeImage() {
+
+if (document.getElementById("like").src == "Assets/heartempty.png") 
+	console.log('changingimage');
+    { 
+    document.getElementById("like").src = "Assets/heartfull.png";
+        }
+
+    }
 
 
 
@@ -10,6 +19,8 @@ $.get('Assets/book3.htm', function(data){
 
 	var bookTitle = $('#content').find('h1');
 	var chapters = $('#content').find('h3');
+
+	bookTitle.css("text-align", "left");
 	//console.log(html);
 
 
@@ -22,7 +33,12 @@ $.get('Assets/book3.htm', function(data){
 
 	$('#content pre, #content style').remove();
 	$('#content br, #content style').remove();
-	///$('#content h2, #content style').remove();
+	$('#content h2, #content style').css("text-align","left");
+	$('#content h3, #content style').css("text-align","left");
+	$('#content h3, #content style').css("padding","0");
+
+
+
 
 
 
@@ -49,9 +65,9 @@ $.get('Assets/book3.htm', function(data){
 	console.log("git here")
 	
 
-	
 
 });
+
 
 
 

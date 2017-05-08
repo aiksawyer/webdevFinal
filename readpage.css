@@ -22,7 +22,6 @@ h3{
 	font-family: 'Poiret One', cursive;
 	color: grey;
 	font-size: 24px;
-	margin-left: 20px;
 	margin-top: 0;
 }
 
@@ -41,6 +40,7 @@ h4{
 }
 
 img{
+	position: fixed;
 	margin-top: 30px;
 	margin-left: 40px;
 
@@ -52,8 +52,8 @@ p{
 .row{
 	margin-bottom: 20px;
 }
-h4{
-	text-align: center;
+h3{
+	text-align: left;
 }
 
 .bookcontainer{
@@ -64,8 +64,7 @@ h4{
 
 
 #nav
-{		
-
+{	
 	position: fixed;
 	left: -10em;
 	top: 0;
@@ -80,9 +79,10 @@ h4{
 #nav h6{
 	font-family: 'Poiret One', cursive;
 	color: #303030;
+	text-align: left;
 }
 #nav:after
-{		
+{
 	position: fixed;
 	content: ' ';
 	width: 0;
@@ -94,8 +94,7 @@ h4{
 	
 }
 
-#nav ul
-
+#nav ul{	
 	font-family: 'Poiret One', cursive;
 	width: 6em;
 	list-style-type: none;
@@ -104,8 +103,7 @@ h4{
 }
 
 #nav a:link, #nav a:visited
-{	
-
+{
 	font-family: 'Poiret One', cursive;
 	width: 100%;
 	line-height: 2.5em;
@@ -116,20 +114,19 @@ h4{
 }
 
 
+
 /* hovering */
 #nav, #nav *
-
 {	
+	overflow-y: scroll;
 	-webkit-transition: all 600ms ease;
 	-moz-transition: all 600ms ease;
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
 	transition: all 600ms ease;
-
 }
 
 #nav:hover{
-
 	left: -40px;
 }
 
@@ -139,6 +136,4 @@ h4{
 	float: left;
 }
 
-h3{
-	padding-left: 3.7em;
-}
+
